@@ -1,6 +1,6 @@
 # CardiacAR: Mobile Augmented Reality for Cardiovascular Surgical Planning
 
-[![GitHub](https://img.shields.io/github/license/poloclub/argo-scholar?color=blue)](https://github.com/poloclub/argo-scholar/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/poloclub/CardiacAR/blob/main/LICENSE)
 [![DOI:10.1145/3429360.3468195](https://img.shields.io/badge/DOI-10.1145%2F3429360.3468195-blue)](https://dl.acm.org/doi/10.1145/3429360.3468195)
 
 An augmented reality-based iOS application aimed to facilitate cardiovascular surgical planning.
@@ -77,8 +77,8 @@ Explore various cross sections of the model to beter understand the details of t
 
 ## License
 CardiacAR is available under the  [MIT License](LICENSE).
-<!-- CardiacAR uses the Euclid library, which is licensed under [ODC-BY](https://opendatacommons.org/licenses/by/1.0/). -->
-<!-- More can be found here: [*Waleed Ammar et al. 2018. Construction of the Literature Graph in Semantic Scholar. NAACL*](https://www.semanticscholar.org/paper/09e3cf5704bcb16e6657f6ceed70e93373a54618) -->
+CardiacAR uses the Euclid library, which is also licensed under the [MIT License](https://github.com/nicklockwood/Euclid/blob/master/LICENSE.md).
+
 
 ## Contact
 If you have any questions or would like to contribute to the project, feel free to [open an issue](https://github.com/poloclub/CardiacAR/issues/new) or contact [Alex Yang](https://alexanderyang.me).
