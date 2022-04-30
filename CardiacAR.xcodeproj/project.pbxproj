@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081CE50D27F76A9C00256E17 /* ButtonPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081CE50C27F76A9C00256E17 /* ButtonPanelView.swift */; };
+		082F57FD2744AC8D00DB2DAE /* SceneView+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F57FC2744AC8D00DB2DAE /* SceneView+Gesture.swift */; };
+		082F57FF2744ACE200DB2DAE /* SceneView+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F57FE2744ACE200DB2DAE /* SceneView+Button.swift */; };
+		0840B2E627358692005C4A7E /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840B2E527358691005C4A7E /* SceneView.swift */; };
+		0841454E2747FD1900278B4A /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 0841454D2747FD1900278B4A /* Introspect */; };
+		08414550274803AB00278B4A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0841454F274803AA00278B4A /* Color.swift */; };
+		084145522748042300278B4A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084145512748042300278B4A /* Font.swift */; };
+		186D75C12756DE3B00AFF805 /* Euclid in Frameworks */ = {isa = PBXBuildFile; productRef = 186D75C02756DE3B00AFF805 /* Euclid */; };
+		4A0DCAD227057E4400337558 /* CardiacARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DCAD127057E4400337558 /* CardiacARApp.swift */; };
+		4A0DCAD427057E4400337558 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DCAD327057E4400337558 /* MainView.swift */; };
+		4A0DCAD627057E4A00337558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0DCAD527057E4A00337558 /* Assets.xcassets */; };
+		4A0DCAD927057E4A00337558 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0DCAD827057E4A00337558 /* Preview Assets.xcassets */; };
+		4A19AB382800FC590031A2A1 /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A19AB372800FC590031A2A1 /* PopUpWindow.swift */; };
+		4A352DAD2800C5A0007794E1 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A352DAC2800C5A0007794E1 /* PopUpView.swift */; };
+		4AC66A2E270BF88D001755F5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC66A2D270BF88D001755F5 /* WelcomeView.swift */; };
+		4AC66A32270BF9FC001755F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC66A31270BF9FC001755F5 /* HomeView.swift */; };
+		4AEB33742719EBDE00954C8E /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB33732719EBDE00954C8E /* ProjectView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		081CE50C27F76A9C00256E17 /* ButtonPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPanelView.swift; sourceTree = "<group>"; };
+		082F57FC2744AC8D00DB2DAE /* SceneView+Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneView+Gesture.swift"; sourceTree = "<group>"; };
+		082F57FE2744ACE200DB2DAE /* SceneView+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneView+Button.swift"; sourceTree = "<group>"; };
+		0840B2E527358691005C4A7E /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		0841454F274803AA00278B4A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		084145512748042300278B4A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		4A0DCACE27057E4400337558 /* CardiacAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardiacAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0DCAD127057E4400337558 /* CardiacARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardiacARApp.swift; sourceTree = "<group>"; };
+		4A0DCAD327057E4400337558 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4A0DCAD527057E4A00337558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0DCAD827057E4A00337558 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A0DCADA27057E4A00337558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A19AB372800FC590031A2A1 /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
+		4A352DAC2800C5A0007794E1 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		4AC66A2D270BF88D001755F5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4AC66A31270BF9FC001755F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4AEB33732719EBDE00954C8E /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0DCACB27057E4400337558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186D75C12756DE3B00AFF805 /* Euclid in Frameworks */,
+				0841454E2747FD1900278B4A /* Introspect in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0DCAC527057E4400337558 = {
+			isa = PBXGroup;
+			children = (
+				4A0DCAD027057E4400337558 /* CardiacAR */,
+				4A0DCACF27057E4400337558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0DCACF27057E4400337558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0DCACE27057E4400337558 /* CardiacAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0DCAD027057E4400337558 /* CardiacAR */ = {
+			isa = PBXGroup;
+			children = (
+				4A0DCAD127057E4400337558 /* CardiacARApp.swift */,
+				4A0DCAD327057E4400337558 /* MainView.swift */,
+				4AC66A31270BF9FC001755F5 /* HomeView.swift */,
+				0840B2E527358691005C4A7E /* SceneView.swift */,
+				082F57FC2744AC8D00DB2DAE /* SceneView+Gesture.swift */,
+				082F57FE2744ACE200DB2DAE /* SceneView+Button.swift */,
+				4A0DCAD527057E4A00337558 /* Assets.xcassets */,
+				4A0DCADA27057E4A00337558 /* Info.plist */,
+				4A0DCAD727057E4A00337558 /* Preview Content */,
+				4AC66A2D270BF88D001755F5 /* WelcomeView.swift */,
+				4AEB33732719EBDE00954C8E /* ProjectView.swift */,
+				0841454F274803AA00278B4A /* Color.swift */,
+				084145512748042300278B4A /* Font.swift */,
+				081CE50C27F76A9C00256E17 /* ButtonPanelView.swift */,
+				4A352DAC2800C5A0007794E1 /* PopUpView.swift */,
+				4A19AB372800FC590031A2A1 /* PopUpWindow.swift */,
+			);
+			path = CardiacAR;
+			sourceTree = "<group>";
+		};
+		4A0DCAD727057E4A00337558 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A0DCAD827057E4A00337558 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0DCACD27057E4400337558 /* CardiacAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0DCADD27057E4A00337558 /* Build configuration list for PBXNativeTarget "CardiacAR" */;
+			buildPhases = (
+				4A0DCACA27057E4400337558 /* Sources */,
+				4A0DCACB27057E4400337558 /* Frameworks */,
+				4A0DCACC27057E4400337558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardiacAR;
+			packageProductDependencies = (
+				0841454D2747FD1900278B4A /* Introspect */,
+				186D75C02756DE3B00AFF805 /* Euclid */,
+			);
+			productName = "CardiacAR-SwiftUI";
+			productReference = 4A0DCACE27057E4400337558 /* CardiacAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0DCAC627057E4400337558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4A0DCACD27057E4400337558 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A0DCAC927057E4400337558 /* Build configuration list for PBXProject "CardiacAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0DCAC527057E4400337558;
+			packageReferences = (
+				0841454C2747FD1900278B4A /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				186D75BF2756DE3B00AFF805 /* XCRemoteSwiftPackageReference "Euclid" */,
+			);
+			productRefGroup = 4A0DCACF27057E4400337558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0DCACD27057E4400337558 /* CardiacAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0DCACC27057E4400337558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0DCAD927057E4A00337558 /* Preview Assets.xcassets in Resources */,
+				4A0DCAD627057E4A00337558 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0DCACA27057E4400337558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A19AB382800FC590031A2A1 /* PopUpWindow.swift in Sources */,
+				4A352DAD2800C5A0007794E1 /* PopUpView.swift in Sources */,
+				4AC66A2E270BF88D001755F5 /* WelcomeView.swift in Sources */,
+				4AC66A32270BF9FC001755F5 /* HomeView.swift in Sources */,
+				084145522748042300278B4A /* Font.swift in Sources */,
+				4A0DCAD427057E4400337558 /* MainView.swift in Sources */,
+				0840B2E627358692005C4A7E /* SceneView.swift in Sources */,
+				4AEB33742719EBDE00954C8E /* ProjectView.swift in Sources */,
+				082F57FD2744AC8D00DB2DAE /* SceneView+Gesture.swift in Sources */,
+				081CE50D27F76A9C00256E17 /* ButtonPanelView.swift in Sources */,
+				4A0DCAD227057E4400337558 /* CardiacARApp.swift in Sources */,
+				082F57FF2744ACE200DB2DAE /* SceneView+Button.swift in Sources */,
+				08414550274803AB00278B4A /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A0DCADB27057E4A00337558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A0DCADC27057E4A00337558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0DCADE27057E4A00337558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"CardiacAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 226FAC77A3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CardiacAR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = poloclub.CardiacAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0DCADF27057E4A00337558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"CardiacAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 226FAC77A3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CardiacAR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = poloclub.CardiacAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0DCAC927057E4400337558 /* Build configuration list for PBXProject "CardiacAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0DCADB27057E4A00337558 /* Debug */,
+				4A0DCADC27057E4A00337558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0DCADD27057E4A00337558 /* Build configuration list for PBXNativeTarget "CardiacAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0DCADE27057E4A00337558 /* Debug */,
+				4A0DCADF27057E4A00337558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0841454C2747FD1900278B4A /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		186D75BF2756DE3B00AFF805 /* XCRemoteSwiftPackageReference "Euclid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicklockwood/Euclid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0841454D2747FD1900278B4A /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0841454C2747FD1900278B4A /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		186D75C02756DE3B00AFF805 /* Euclid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 186D75BF2756DE3B00AFF805 /* XCRemoteSwiftPackageReference "Euclid" */;
+			productName = Euclid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4A0DCAC627057E4400337558 /* Project object */;
+}

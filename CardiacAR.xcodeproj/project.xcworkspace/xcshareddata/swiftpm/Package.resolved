@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "euclid",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/Euclid",
+      "state" : {
+        "revision" : "4b1a76189276be40027989946a55bb2f1c0ff635",
+        "version" : "0.5.12"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/SwiftUI-Introspect.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7ef0df639079491ee1aaf6b83b6fd4d08df80393"
+      }
+    }
+  ],
+  "version" : 2
+}
