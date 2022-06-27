@@ -42,37 +42,16 @@ Explore various cross sections of the model to beter understand the details of t
 ![CardiacAR Model Annotation](./img/Annotation.gif)
 
 ## Credits
-♥ CardiacAR was developed and maintained by [Alex Yang](https://github.com/AlexanderHYang), [Pratham Mehta](https://github.com/twixupmysleeve), [Jonathan Leo](https://github.com/jpleo122), [Duen Horng Chau](https://github.com/polochau) from [Polo Club of Data Science](https://poloclub.github.io/) at Georgia Tech.
+♥ CardiacAR developers and collaborators: [Alex Yang](https://github.com/AlexanderHYang), [Pratham Mehta](https://github.com/twixupmysleeve), [Jonathan Leo](https://github.com/jpleo122), [Zhiyan Zhou](https://www.linkedin.com/in/zhiyan-zhou-b19515159/), [Megan Dass](http://megandass.me), [Anish Upadhayay](https://github.com/aupadhayay3), [Tim Slesnick](https://www.choa.org/doctors/timothy-c-slesnick), [Fawwaz Shaw](https://www.choa.org/doctors/fawwaz-ridwan-shaw), [Amanda Randles](https://bme.duke.edu/faculty/amanda-randles), and [Duen Horng Chau](https://faculty.cc.gatech.edu/~dchau/).
 ## Citation
 ```bibTeX
-@inproceedings{10.1145/3429360.3468195,
-   author = {Leo, Jonathan and Zhou, Zhiyan and Yang, Haoyang and Dass, Megan and Upadhayay, Anish and C Slesnick, 
-   Timothy and Shaw, Fawwaz and Horng Chau, Duen},
-   title = {Interactive Cardiovascular Surgical Planning via Augmented Reality},
-   year = {2021},
-   isbn = {9781450382038},
-   publisher = {Association for Computing Machinery},
-   address = {New York, NY, USA},
-   url = {https://doi.org/10.1145/3429360.3468195},
-   doi = {10.1145/3429360.3468195},
-   abstract = { The current practice for planning complex cardiovascular surgeries includes printing
-   and cutting physical heart models. Unfortunately, such cuts are permanent, thus it
-   is not possible to interactively experiment with different cuts, slowing the planning
-   process. In collaboration with Children’s Healthcare of Atlanta Heart Center (CHOA),
-   we are exploring new ways to improve cardiovascular, or heart, surgical planning through
-   augmented reality (AR). We are developing CardiacAR , an iOS AR application that enables
-   interactive surgical planning on mobile devices. CardiacAR offers powerful and flexible
-   tools critical for surgical planning, such as omni-directional slicing of patients’
-   3D heart models and virtual annotation to assist planning. We believe the ubiquity
-   of iOS devices will help broaden access to the CardiacAR technology and streamline
-   its deployment.},
-   booktitle = {Asian CHI Symposium 2021},
-   pages = {132–135},
-   numpages = {4},
-   keywords = {ARKit, mixed reality, augmented reality, surgical planning},
-   location = {Yokohama, Japan},
-   series = {Asian CHI Symposium 2021}
- }
+@inproceedings{leo2021interactive,
+  title={Interactive Cardiovascular Surgical Planning via Augmented Reality},
+  author={Leo, Jonathan and Zhou, Zhiyan and Yang, Haoyang and Dass, Megan and Upadhayay, Anish and C Slesnick, Timothy and Shaw, Fawwaz and Horng Chau, Duen},
+  booktitle={Asian CHI Symposium 2021},
+  pages={132--135},
+  year={2021}
+}
 ```
 
 ## License
