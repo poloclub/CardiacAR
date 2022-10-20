@@ -6,7 +6,7 @@
 [![DOI:10.1145/3429360.3468195](https://img.shields.io/badge/DOI-10.1145%2F3429360.3468195-blue)](https://dl.acm.org/doi/10.1145/3429360.3468195)
 [![arxiv badge](https://img.shields.io/badge/arXiv-2110.14060-red)](https://arxiv.org/abs/2208.10639)
 
-An augmented reality-based iOS application aimed to facilitate cardiovascular surgical planning.
+Augmented Reality based iOS application to help surgeons with cardiovascular surgical planning
 
 
 <table>
