@@ -1,5 +1,7 @@
 # CardiacAR: Mobile Augmented Reality for Cardiovascular Surgical Planning
 
+<img src="img/README_Banner.png" width=100% alt="CardiacAR Banner">
+
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/poloclub/CardiacAR/blob/main/LICENSE)
 [![DOI:10.1145/3429360.3468195](https://img.shields.io/badge/DOI-10.1145%2F3429360.3468195-blue)](https://dl.acm.org/doi/10.1145/3429360.3468195)
 [![arxiv badge](https://img.shields.io/badge/arXiv-2110.14060-red)](https://arxiv.org/abs/2208.10639)
@@ -7,7 +9,16 @@
 An augmented reality-based iOS application aimed to facilitate cardiovascular surgical planning.
 
 
-<img src="img/README_Banner.png" width=80% alt="CardiacAR Banner">
+<table>
+  <tr>
+    <td colspan="2"><img src="22-VIS-Poster.png"></td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=VmAx7U18300>📺 Video</a></td>
+    <td><a href="https://arxiv.org/abs/2208.10639">📖 "Evaluating Cardiovascular Surgical Planning in Mobile Augmented Reality"</a></td>
+  </tr>
+</table>
 
 <!-- [**Live Demo** - Launch Argo Scholar in your browser](https://poloclub.github.io/argo-scholar/) -->
 <!-- ## Documentations 
