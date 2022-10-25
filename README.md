@@ -56,6 +56,7 @@ Explore various cross sections of the model to beter understand the details of t
 ## Credits
 ♥ CardiacAR developers and collaborators: [Alex Yang](https://github.com/AlexanderHYang), [Pratham Mehta](https://github.com/twixupmysleeve), [Jonathan Leo](https://github.com/jpleo122), [Zhiyan Zhou](https://www.linkedin.com/in/zhiyan-zhou-b19515159/), [Megan Dass](http://megandass.me), [Anish Upadhayay](https://github.com/aupadhayay3), [Tim Slesnick](https://www.choa.org/doctors/timothy-c-slesnick), [Fawwaz Shaw](https://www.choa.org/doctors/fawwaz-ridwan-shaw), [Amanda Randles](https://bme.duke.edu/faculty/amanda-randles), and [Duen Horng Chau](https://faculty.cc.gatech.edu/~dchau/).
 ## Citation
+Asian CHI 2021 Poster (System Design)
 ```bibTeX
 @inproceedings{leo2021interactive,
   title={Interactive Cardiovascular Surgical Planning via Augmented Reality},
@@ -63,6 +64,16 @@ Explore various cross sections of the model to beter understand the details of t
   booktitle={Asian CHI Symposium 2021},
   pages={132--135},
   year={2021}
+}
+```
+VIS 2022 Poster (Evaluation)
+```bibTeX
+@article{Yang2022EvaluatingCS,
+  title={Evaluating Cardiovascular Surgical Planning in Mobile Augmented Reality},
+  author={H. Yang and Pratham Darrpan Mehta and Jonathan Leo and Zhiyan Zhou and Megan Dass and Anish Upadhayay and Timothy C. Slesnick and Fawwaz Shaw and Amanda Randles and Duen Horng Chau},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2208.10639}
 }
 ```
 
