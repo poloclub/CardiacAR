@@ -1,10 +1,10 @@
 
-<img src="img/README_Banner.png" width=100% alt="CardiacAR Banner">
+<img src="img/readme-banner.png" width=100% alt="CardiacAR Banner">
 
-
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/poloclub/CardiacAR/blob/main/LICENSE)
 [![DOI:10.1145/3429360.3468195](https://img.shields.io/badge/DOI-10.1145%2F3429360.3468195-blue)](https://dl.acm.org/doi/10.1145/3429360.3468195)
 [![arxiv badge](https://img.shields.io/badge/arXiv-2110.14060-red)](https://arxiv.org/abs/2208.10639)
+
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/poloclub/CardiacAR/blob/main/LICENSE)
 
 Augmented Reality based iOS application to help surgeons with cardiovascular surgical planning
 
@@ -33,25 +33,26 @@ Augmented Reality based iOS application to help surgeons with cardiovascular sur
 
 ### Importing and Repositioning Model
 
-Import your own custom heart models and reposition them in the physical space!
+Import custom heart models for patient-specific analysis and anchor them anywhere in the AR space.
 
-![CardiacAR Model Import and Reposition](./img/Import%20and%20Reposition%20Model.gif)
+![CardiacAR Model Import and Reposition](img/import-and-reposition-model.gif)
 
 
 ### Panning, Scaling, and Perspective View
 
 Using CardiacAR, you can pan, rotate, and scale the model for better angles. You can also move your device through the model by moving it in the physical space to obtain a perspective view of the model.
 
-![CardiacAR Panning, Scaling, and Perspective View](./img/Pan%2C%20Scale%2C%20Perspective.gif)
+![CardiacAR Panning, Scaling, and Perspective View](img/pan-scale-perspective.gif)
 
-### Model Slicing
+### Omni-directional
 
-Explore various cross sections of the model to beter understand the details of the heart model. Implement multiple slices and cross sections to narrow your field of view. Preview the slices before confirming them using the "Confirm Slice" button.
+Explore various cross sectional view of the model to better understand the anatomy of the heart model. Implement multiple slices in any direction to better analyze the model. Preview the slices before confirming them using the "Confirm Slice" button.
 
-![CardiacAR Model Slicing](./img/Slicing.gif)
+![CardiacAR Omni-directional Slicing](./img/slicing.gif)
 
 ### Virtual Annotation
-![CardiacAR Model Annotation](./img/Annotation.gif)
+Attach a sticky note to the model and anchor it to any point on the model to quickly emphasize and organize information during a planning session.
+![CardiacAR Model Annotation](./img/annotation.gif)
 
 ## Credits
 ♥ CardiacAR developers and collaborators: [Alex Yang](https://github.com/AlexanderHYang), [Pratham Mehta](https://github.com/twixupmysleeve), [Jonathan Leo](https://github.com/jpleo122), [Zhiyan Zhou](https://www.linkedin.com/in/zhiyan-zhou-b19515159/), [Megan Dass](http://megandass.me), [Anish Upadhayay](https://github.com/aupadhayay3), [Tim Slesnick](https://www.choa.org/doctors/timothy-c-slesnick), [Fawwaz Shaw](https://www.choa.org/doctors/fawwaz-ridwan-shaw), [Amanda Randles](https://bme.duke.edu/faculty/amanda-randles), and [Duen Horng Chau](https://faculty.cc.gatech.edu/~dchau/).
